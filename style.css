@@ -11,20 +11,22 @@
 #searchBarStyle:hover {
   border-color: forestgreen;
   border-width: thin;
-
 }
 
 #searchBarStyle {
   height: 45px;
-  padding-top: 10px;
-  position: absolute;
+  /* position: absolute; */
   border-radius: 45px;
   border-color: black;
   border-style: solid;
   border-width: thin;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding: 0px;
   margin: 0px;
+}
+
+input {
+  /* margin: 0; */
+  /* padding: 0; */
 }
 
 #searchBarText {
