@@ -1,0 +1,76 @@
+* {
+  background: white;
+  margin: 20px;
+}
+
+#searchBar {
+  display: flex;
+  flex-direction: row;
+}
+
+#searchBarStyle:hover {
+  border-color: forestgreen;
+  border-width: thin;
+
+}
+
+#searchBarStyle {
+  height: 45px;
+  padding-top: 10px;
+  position: absolute;
+  border-radius: 45px;
+  border-color: black;
+  border-style: solid;
+  border-width: thin;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin: 0px;
+}
+
+#searchBarText {
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+::placeholder {
+  color: forestgreen;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  border-top-right-radius: 45px;
+  border-bottom-right-radius: 45px;
+}
+
+#searchBarImage {
+  margin: 0;
+  padding: 0;
+  padding-right: 10px;
+  padding-left: 10px;
+  border: 0;
+  height: 40px;
+  width: 20px;
+  border-top-right-radius: 45px;
+  border-bottom-right-radius: 45px;
+  color: forestgreen;
+}
+
+#searchBarImage:hover{
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+  border: 0;
+  height: 40px;
+  width: 20px;
+  border-top-right-radius: 45px;
+  border-bottom-right-radius: 45px;
+  background-color: forestgreen;
+}
